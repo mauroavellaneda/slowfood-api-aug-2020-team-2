@@ -14,4 +14,5 @@ RSpec.describe Api::V1::ProductsController, type: :request do
     it 'returns a collection of performance data' do
       expect(response_json['entries'].count).to eq 1
     end
+  end
 end
